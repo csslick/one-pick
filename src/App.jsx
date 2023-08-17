@@ -3,13 +3,13 @@ import './App.scss'
 
 function App() {
   const data = [
-    { name: '임영웅', image: '/images/iyw.jpg' },
-    { name: '아이유', image: '/images/iu.jpg' },
-    { name: '싸이', image: '/images/psy.jpg' },
-    { name: '이찬원', image: '/images/leechan.jpg' },
-    { name: '정동원', image: '/images/jdw.jpg' },
-    { name: '강다니엘', image: '/images/kd.jpg' },
-    { name: '김호중', image: '/images/khj.jpg' },
+    { name: '임영웅', image: 'images/iyw.jpg' },
+    { name: '아이유', image: 'images/iu.jpg' },
+    { name: '싸이', image: 'images/psy.jpg' },
+    { name: '이찬원', image: 'images/leechan.jpg' },
+    { name: '정동원', image: 'images/jdw.jpg' },
+    { name: '강다니엘', image: 'images/kd.jpg' },
+    { name: '김호중', image: 'images/khj.jpg' },
   ];
   const [star, setStar] = useState(data); // 전체 데이터
   const [pick, setPick] = useState([]); // 선택 변수(2개 중 택)
