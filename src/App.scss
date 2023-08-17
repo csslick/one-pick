@@ -1,9 +1,21 @@
 
 .choice-box {
   display: flex;
-
+  gap: 20px;
   button {
     width: 50%;
-    height: 300px;
+    font-size: 3em;
+    text-shadow: 1px 1px 2px #fff;
+    aspect-ratio: 1/1;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
   }
+}
+
+.btn-restart {
+  padding: 4px 1em;
+  margin-top: 1em;
+  font-size: 18px;
 }
